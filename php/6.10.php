@@ -8,9 +8,6 @@ function tab3()
     }
     for ($i = 0; $i < 8; $i++) {
         $tab3[$i] = $tab1[$i] + $tab2[$i];
-    }
-
-    for ($i = 0; $i < 8; $i++) {
         echo $tab3[$i] . "\n";
     }
 }
